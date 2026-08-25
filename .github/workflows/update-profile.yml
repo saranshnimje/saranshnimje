@@ -1,0 +1,57 @@
+name: Update Profile
+
+on:
+  schedule:
+    # Run daily at 6:17 AM UTC
+    - cron: '17 6 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+# Prevent self-trigger loops
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Fetch contributions and generate heatmap
+        run: |
+          python scripts/fetch_contributions.py saranshnimje
+          python scripts/render_heatmap_svg.py data/contributions.json
+      
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit changes
+        if: steps.check-changes.outputs.changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution heatmap"
+          file_pattern: |
+            data/contributions.json
+            assets/contribution/heatmap.svg
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
+          commit_author: GitHub Actions <actions@github.com>

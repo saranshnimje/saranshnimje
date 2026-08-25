@@ -1,0 +1,115 @@
+{
+  "name": "Saransh Nimje",
+  "username": "saranshnimje",
+  "education": "B.Tech CSE — IoT & Cyber Security",
+  "role": "Student / Developer",
+  "focus": [
+    "AI",
+    "Machine Learning",
+    "Full Stack",
+    "Cyber Security",
+    "IoT"
+  ],
+  "current_projects": [
+    {
+      "name": "Sovereign AI Workbench",
+      "description": "An on-premise AI workbench designed around local, private and sovereign AI workflows.",
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Python",
+        "FastAPI",
+        "Ollama",
+        "Open-weight LLMs",
+        "Vision/OCR",
+        "Qdrant",
+        "SQLite",
+        "Docker"
+      ],
+      "status": "Development",
+      "priority": true
+    },
+    {
+      "name": "HomeBrain AI",
+      "description": "Smart home automation with AI integration.",
+      "stack": [
+        "Python",
+        "IoT",
+        "AI"
+      ],
+      "status": "Development"
+    },
+    {
+      "name": "SmartChain AI",
+      "description": "AI-powered supply chain optimization.",
+      "stack": [
+        "Python",
+        "Machine Learning",
+        "Blockchain"
+      ],
+      "status": "Development"
+    },
+    {
+      "name": "News Guard",
+      "description": "Fake news detection system using NLP.",
+      "stack": [
+        "Python",
+        "NLP",
+        "Machine Learning"
+      ],
+      "status": "Development"
+    }
+  ],
+  "tech_stack": {
+    "Frontend": [
+      "React",
+      "Vite",
+      "Tailwind CSS"
+    ],
+    "Backend": [
+      "Python",
+      "FastAPI",
+      "Node.js",
+      "Express"
+    ],
+    "AI/ML": [
+      "Ollama",
+      "Open-weight LLMs",
+      "Vision Models",
+      "OCR",
+      "RAG",
+      "Qdrant"
+    ],
+    "Database": [
+      "SQLite",
+      "PostgreSQL"
+    ],
+    "DevOps": [
+      "Docker",
+      "Docker Compose",
+      "GitHub Actions"
+    ],
+    "Systems": [
+      "Linux",
+      "Ubuntu",
+      "Git"
+    ]
+  },
+  "current_focus": [
+    "Local AI",
+    "AI Agents",
+    "RAG",
+    "Computer Vision",
+    "Full Stack Engineering",
+    "Cyber Security",
+    "Docker / Linux",
+    "Open Source"
+  ],
+  "social_links": {
+    "github": "https://github.com/saranshnimje",
+    "linkedin": "https://linkedin.com/in/saranshnimje",
+    "portfolio": "https://saranshnimje.github.io",
+    "youtube": ""
+  }
+}

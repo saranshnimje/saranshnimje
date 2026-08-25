@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1124" height="608" viewBox="0 0 1124 608" xmlns="http://www.w3.org/2000/svg">
+  <title>Projects for Saransh Nimje</title>
+  <desc>Terminal-style card showing projects and their descriptions</desc>
+  
+  <!-- Background -->
+  <rect width="1124" height="608" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Terminal dots -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+  
+  <!-- Content -->
+  <g font-family="'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace" font-size="14">
+    <text x="40" y="70" fill="#39d353" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.00s" fill="freeze"/>
+      saranshnimje@github:~$ ls ./projects
+    </text>
+    <text x="40" y="94" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.03s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="118" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.06s" fill="freeze"/>
+      Sovereign AI Workbench
+    </text>
+    <text x="40" y="142" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.09s" fill="freeze"/>
+        An on-premise AI workbench designed around local, private and sovereign AI workflows.
+    </text>
+    <text x="40" y="166" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.12s" fill="freeze"/>
+        Stack: React, Vite, Tailwind CSS, Python, FastAPI
+    </text>
+    <text x="40" y="190" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.15s" fill="freeze"/>
+        Status: Development
+    </text>
+    <text x="40" y="214" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.18s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="238" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.21s" fill="freeze"/>
+      HomeBrain AI
+    </text>
+    <text x="40" y="262" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.24s" fill="freeze"/>
+        Smart home automation with AI integration.
+    </text>
+    <text x="40" y="286" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.27s" fill="freeze"/>
+        Stack: Python, IoT, AI
+    </text>
+    <text x="40" y="310" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.30s" fill="freeze"/>
+        Status: Development
+    </text>
+    <text x="40" y="334" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.33s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="358" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.36s" fill="freeze"/>
+      SmartChain AI
+    </text>
+    <text x="40" y="382" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.39s" fill="freeze"/>
+        AI-powered supply chain optimization.
+    </text>
+    <text x="40" y="406" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.42s" fill="freeze"/>
+        Stack: Python, Machine Learning, Blockchain
+    </text>
+    <text x="40" y="430" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.45s" fill="freeze"/>
+        Status: Development
+    </text>
+    <text x="40" y="454" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.48s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="478" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.51s" fill="freeze"/>
+      News Guard
+    </text>
+    <text x="40" y="502" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.54s" fill="freeze"/>
+        Fake news detection system using NLP.
+    </text>
+    <text x="40" y="526" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.57s" fill="freeze"/>
+        Stack: Python, NLP, Machine Learning
+    </text>
+    <text x="40" y="550" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.60s" fill="freeze"/>
+        Status: Development
+    </text>
+    <text x="40" y="574" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.63s" fill="freeze"/>
+      
+    </text>
+  </g>
+</svg>

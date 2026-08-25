@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="490" height="608" viewBox="0 0 490 608" xmlns="http://www.w3.org/2000/svg">
+  <title>Whoami information card for Saransh Nimje</title>
+  <desc>Terminal-style card showing personal information and current focus areas</desc>
+  
+  <!-- Background -->
+  <rect width="490" height="608" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Terminal dots -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+  
+  <!-- Content -->
+  <g font-family="'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace" font-size="14">
+    <text x="40" y="70" fill="#39d353" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.00s" fill="freeze"/>
+      saranshnimje@github:~$ whoami
+    </text>
+    <text x="40" y="94" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.05s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="118" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.10s" fill="freeze"/>
+      Saransh Nimje
+    </text>
+    <text x="40" y="142" fill="#30363d" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.15s" fill="freeze"/>
+      ──────────────────────────────
+    </text>
+    <text x="40" y="166" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.20s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="190" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.25s" fill="freeze"/>
+      Role
+    </text>
+    <text x="40" y="214" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.30s" fill="freeze"/>
+      → Student / Developer
+    </text>
+    <text x="40" y="238" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.35s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="262" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.40s" fill="freeze"/>
+      Focus
+    </text>
+    <text x="40" y="286" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.45s" fill="freeze"/>
+      → AI
+    </text>
+    <text x="40" y="310" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.50s" fill="freeze"/>
+      → Machine Learning
+    </text>
+    <text x="40" y="334" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.55s" fill="freeze"/>
+      → Full Stack
+    </text>
+    <text x="40" y="358" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.60s" fill="freeze"/>
+      → Cyber Security
+    </text>
+    <text x="40" y="382" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.65s" fill="freeze"/>
+      → IoT
+    </text>
+    <text x="40" y="406" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.70s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="430" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.75s" fill="freeze"/>
+      Currently building
+    </text>
+    <text x="40" y="454" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.80s" fill="freeze"/>
+      → Sovereign AI Workbench
+    </text>
+    <text x="40" y="478" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.85s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="502" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.90s" fill="freeze"/>
+      Status
+    </text>
+    <text x="40" y="526" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.95s" fill="freeze"/>
+      → Learning
+    </text>
+    <text x="40" y="550" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.00s" fill="freeze"/>
+      → Building
+    </text>
+    <text x="40" y="574" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.05s" fill="freeze"/>
+      → Experimenting
+    </text>
+  </g>
+</svg>

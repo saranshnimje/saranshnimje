@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700" height="920" viewBox="0 0 700 920" xmlns="http://www.w3.org/2000/svg">
+  <title>Technology stack for Saransh Nimje</title>
+  <desc>Terminal-style card showing programming languages, frameworks, and tools</desc>
+  
+  <!-- Background -->
+  <rect width="700" height="920" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Terminal dots -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+  
+  <!-- Content -->
+  <g font-family="'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace" font-size="14">
+    <text x="40" y="70" fill="#39d353" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.00s" fill="freeze"/>
+      saranshnimje@github:~$ cat stack.json
+    </text>
+    <text x="40" y="94" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.03s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="118" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.06s" fill="freeze"/>
+      Frontend
+    </text>
+    <text x="40" y="142" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.09s" fill="freeze"/>
+      → React
+    </text>
+    <text x="40" y="166" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.12s" fill="freeze"/>
+      → Vite
+    </text>
+    <text x="40" y="190" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.15s" fill="freeze"/>
+      → Tailwind CSS
+    </text>
+    <text x="40" y="214" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.18s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="238" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.21s" fill="freeze"/>
+      Backend
+    </text>
+    <text x="40" y="262" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.24s" fill="freeze"/>
+      → Python
+    </text>
+    <text x="40" y="286" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.27s" fill="freeze"/>
+      → FastAPI
+    </text>
+    <text x="40" y="310" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.30s" fill="freeze"/>
+      → Node.js
+    </text>
+    <text x="40" y="334" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.33s" fill="freeze"/>
+      → Express
+    </text>
+    <text x="40" y="358" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.36s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="382" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.39s" fill="freeze"/>
+      AI/ML
+    </text>
+    <text x="40" y="406" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.42s" fill="freeze"/>
+      → Ollama
+    </text>
+    <text x="40" y="430" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.45s" fill="freeze"/>
+      → Open-weight LLMs
+    </text>
+    <text x="40" y="454" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.48s" fill="freeze"/>
+      → Vision Models
+    </text>
+    <text x="40" y="478" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.51s" fill="freeze"/>
+      → OCR
+    </text>
+    <text x="40" y="502" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.54s" fill="freeze"/>
+      → RAG
+    </text>
+    <text x="40" y="526" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.57s" fill="freeze"/>
+      → Qdrant
+    </text>
+    <text x="40" y="550" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.60s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="574" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.63s" fill="freeze"/>
+      Database
+    </text>
+    <text x="40" y="598" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.66s" fill="freeze"/>
+      → SQLite
+    </text>
+    <text x="40" y="622" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.69s" fill="freeze"/>
+      → PostgreSQL
+    </text>
+    <text x="40" y="646" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.72s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="670" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.75s" fill="freeze"/>
+      DevOps
+    </text>
+    <text x="40" y="694" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.78s" fill="freeze"/>
+      → Docker
+    </text>
+    <text x="40" y="718" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.81s" fill="freeze"/>
+      → Docker Compose
+    </text>
+    <text x="40" y="742" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.84s" fill="freeze"/>
+      → GitHub Actions
+    </text>
+    <text x="40" y="766" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.87s" fill="freeze"/>
+      
+    </text>
+    <text x="40" y="790" fill="#f0f6fc" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.90s" fill="freeze"/>
+      Systems
+    </text>
+    <text x="40" y="814" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.93s" fill="freeze"/>
+      → Linux
+    </text>
+    <text x="40" y="838" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.96s" fill="freeze"/>
+      → Ubuntu
+    </text>
+    <text x="40" y="862" fill="#c9d1d9" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.99s" fill="freeze"/>
+      → Git
+    </text>
+    <text x="40" y="886" fill="#8b949e" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.02s" fill="freeze"/>
+      
+    </text>
+  </g>
+</svg>
