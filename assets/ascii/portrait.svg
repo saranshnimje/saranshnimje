@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="370" height="300" viewBox="0 0 370 300" xmlns="http://www.w3.org/2000/svg">
+  <title>ASCII portrait placeholder</title>
+  <desc>Placeholder for ASCII portrait - place source photo in source/source-photo.jpg and run generation script</desc>
+  
+  <!-- Background -->
+  <rect width="370" height="300" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Terminal dots -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+  
+  <!-- Content -->
+  <g font-family="'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace" font-size="14" fill="#8b949e">
+    <text x="185" y="80" text-anchor="middle" fill="#f0f6fc">ASCII PORTRAIT</text>
+    <text x="185" y="120" text-anchor="middle">Place your photo at:</text>
+    <text x="185" y="145" text-anchor="middle" fill="#39d353">source/source-photo.jpg</text>
+    <text x="185" y="180" text-anchor="middle">Then run:</text>
+    <text x="185" y="205" text-anchor="middle" fill="#39d353">python scripts/prep_photo.py</text>
+    <text x="185" y="230" text-anchor="middle" fill="#39d353">python scripts/make_ascii_svg.py</text>
+    <text x="185" y="270" text-anchor="middle" fill="#c9d1d9">saransh@github:~$</text>
+  </g>
+</svg>
