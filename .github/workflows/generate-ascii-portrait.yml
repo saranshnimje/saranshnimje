@@ -28,8 +28,8 @@ jobs:
 
       - name: Generate portrait SVG
         run: |
-          python scripts/prep_photo.py source/source-photo.png source/processed-photo.png 80
-          python scripts/make_ascii_svg.py source/processed-photo.png assets/ascii/portrait.svg assets/ascii/portrait-static.svg 80
+          python scripts/prep_photo.py source/source-photo.png source/processed-photo.png 100
+          python scripts/make_ascii_svg.py source/processed-photo.png assets/ascii/portrait.svg assets/ascii/portrait-static.svg 100
 
       - name: Commit generated portrait
         run: |
