@@ -17,7 +17,7 @@ I like turning ideas into practical software — especially around **AI agents, 
 <table>
 <tr>
 <td valign="top" width="50%">
-<img src="./assets/ascii/portrait.svg?v=2" width="100%" alt="ASCII portrait of Saransh Nimje">
+<img src="./assets/ascii/portrait.svg?v=3" width="100%" alt="ASCII portrait of Saransh Nimje">
 </td>
 <td valign="top" width="50%">
 <img src="./assets/cards/whoami.svg" width="100%" alt="Whoami information card">
